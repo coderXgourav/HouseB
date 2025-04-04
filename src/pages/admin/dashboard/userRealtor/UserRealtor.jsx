@@ -53,7 +53,7 @@ export default function Lender() {
                 <div className="cardTwo">
                   <div>
                     <p className="" style={{ color: "#595959" }}>
-                  Total Users
+                  Total Realtors
                     </p>
                     <span className="cardCount2 ">5,750</span>
                     <div>

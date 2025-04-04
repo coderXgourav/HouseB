@@ -61,7 +61,7 @@ export default function Realtor() {
                 <div className="cardTwo">
                   <div>
                     <p className="" style={{ color: "#595959" }}>
-                      Total Home Buyers Lead
+                      Total Realtor Lead
                     </p>
                     <span className="cardCount2">100</span>
                     <div>

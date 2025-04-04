@@ -1,7 +1,7 @@
 import Sidebar from "../../../components/Sidebar/LenderSidebar/Sidebar";
 import "./setting.css";
 import { Link } from "react-router-dom";
-import one from  "../../../assets/web/0.png"
+import one from  "../../../assets/web/1.png"
 
 
 export default function Setting() {
@@ -43,7 +43,7 @@ export default function Setting() {
 
                     <div>
                         <p className="settingLabel" htmlFor="name">Name</p>
-                        <input type="text" placeholder="Boris Smith" id="name" className="inputSetting"/>
+                        <input type="text" placeholder="Adam Brown" id="name" className="inputSetting"/>
                     </div>
 
                     <div>
@@ -53,7 +53,7 @@ export default function Setting() {
 
                     <div>
                         <p className="settingLabel" htmlFor="name">Email</p>
-                        <input type="text" className="inputSetting" placeholder="examlple@gmail.com" id="name" />
+                        <input type="text" className="inputSetting" placeholder="adam@gmail.com" id="name" />
                     </div>
                 </div>
                 </div>  <br />
