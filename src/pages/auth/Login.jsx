@@ -110,7 +110,7 @@ const Login = () => {
               </div>
 
               <Link to={"/admin/dashboard"}><button type="submit" className="signup-btn">
-                Sign Up
+                Login
               </button>
               </Link>
               <div className="login-link">
