@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./signup.css";
 import { Link } from "react-router-dom";
-// import img from "../../assets/web/img.png";
+import img from "../../assets/web/img.png";
 import logo from "../../assets/web/image4.png";
 
 const Login = () => {
@@ -19,10 +19,10 @@ const Login = () => {
   return (
     <div className="main">
       <div className="left-panel">
-        {/* <img
+        <img
           src={img}
           alt="Modern building with glass facade"
-        /> */}
+        />
         <div className="logo">
           <img src={logo} alt="Logo" />
         </div>
