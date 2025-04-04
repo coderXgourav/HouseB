@@ -17,7 +17,7 @@ export default function Realtor() {
               <div className="overview">
                 <p>
                  Lead management 
-                  <span style={{ color: "#595959" }}>(For Loan)</span>
+                  <span style={{ color: "#595959" }}> (For Realtor)</span>
                 </p>
               </div>
               <div className="allCard">
@@ -26,7 +26,7 @@ export default function Realtor() {
                     <p className="" style={{ color: "#595959" }}>
                     Real Estate
                     </p>
-                    <span className="cardCount2">Leads</span>
+                    <span className="cardCount2">630</span>
                     <div>
                       <div className="gap32"> </div>
 

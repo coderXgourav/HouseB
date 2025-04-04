@@ -735,6 +735,14 @@ border-radius: 32px;
 background: var(--Prime, #D21B1B);
 }
 
+.viewText{
+  color: var(--Accent, #595959);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+}
+
 .homeByerSelect{
   display: flex;
 padding: 10px 24px;

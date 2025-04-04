@@ -17,7 +17,7 @@ export default function HomeOwner() {
               <div className="overview">
                 <p>
                User management 
-                  <span style={{ color: "#595959" }}>(Home Owners)</span>
+                  <span style={{ color: "#595959" }}> (Home Owners)</span>
                 </p>
               </div>
               <div className="allCard">

@@ -17,7 +17,7 @@ export default function Lender() {
               <div className="overview">
                 <p>
              User management 
-                  <span style={{ color: "#595959" }}>(Lenders)</span>
+                  <span style={{ color: "#595959" }}> (Realtor)</span>
                 </p>
               </div>
               <div className="allCard">
@@ -122,7 +122,7 @@ export default function Lender() {
               </div>
               <div className="tableDiv">
                 <div className="tableTime">
-                  <p className="recentLeads">Home Owners</p>
+                  <p className="recentLeads">Realtor</p>
                   <select name="" id="" className="selectWeekly">
                     <option value="">Weekly</option>
                     <option value="">Monthly</option>

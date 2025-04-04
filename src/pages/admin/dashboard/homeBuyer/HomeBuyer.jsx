@@ -6,9 +6,17 @@ import two from  "../../../../assets/web/1.png"
 import three from  "../../../../assets/web/3.png"
 import four from  "../../../../assets/web/4.png"
 import five from  "../../../../assets/web/5.png"
+import { useState } from "react";
 
 
 export default function MainDashboard() {
+  const [show, setShow]= useState(false);
+
+  const showLead = () =>{
+    setShow(!show);
+  }
+
+
   return (
     <div>
       <Sidebar>
@@ -27,7 +35,7 @@ export default function MainDashboard() {
                     <p className="" style={{ color: "#595959" }}>
                       Home Buyer
                     </p>
-                    <span className="cardCount2">Leads</span>
+                    <span className="cardCount2">396</span>
                     <div>
                       <div className="gap32"> </div>
 
@@ -231,7 +239,7 @@ export default function MainDashboard() {
                     <tbody>
                       <tr>
                         <td>
-                          <input type="checkbox"  />
+                          <input type="checkbox"   />
                         </td>
                         <td className="name">
                           <div className="nameDiv">
@@ -365,7 +373,7 @@ export default function MainDashboard() {
                       </tr>
                       <tr>
                         <td>
-                          <input type="checkbox" checked />
+                          <input type="checkbox" onClick={showLead} value={show} />
                         </td>
                         <td className="name">
                           <div className="nameDiv">
@@ -489,7 +497,7 @@ export default function MainDashboard() {
                         </td>
                         <td className="dateTh">05-03-2025</td>
                         <td className="action">
-                          <Link to="#" className="actionBtn">
+                          <Link to="#" className="actionBtn" onClick={showLead} >
                             View
                           </Link>
                           <Link to={"#"} className="threeDot">
@@ -507,7 +515,7 @@ export default function MainDashboard() {
                             <img src={two} alt="" />
                             <div>
                               &ensp;
-                              <span>Alex Smith</span>
+                              <span>John Carter</span>
                               <p className="no"> &ensp;#8965</p>
                             </div>
                           </div>
@@ -641,7 +649,7 @@ export default function MainDashboard() {
                             <img src={three} alt="" />
                             <div>
                               &ensp;
-                              <span>Alex Smith</span>
+                              <span>Niya K</span>
                               <p className="no"> &ensp;#8965</p>
                             </div>
                           </div>
@@ -775,7 +783,7 @@ export default function MainDashboard() {
                             <img src={four} alt="" />
                             <div>
                               &ensp;
-                              <span>Alex Smith</span>
+                              <span>Ruhi Alex</span>
                               <p className="no"> &ensp;#8965</p>
                             </div>
                           </div>
@@ -909,7 +917,7 @@ export default function MainDashboard() {
                             <img src={five} alt="" />
                             <div>
                               &ensp;
-                              <span>Alex Smith</span>
+                              <span>Shane Warner</span>
                               <p className="no"> &ensp;#8965</p>
                             </div>
                           </div>
@@ -1107,7 +1115,8 @@ export default function MainDashboard() {
                 </div>
               
               </div>
-              <div className="rightCardForHomeBuyer">
+
+              {show ? <div className="rightCardForHomeBuyer">
                 <div className="allData">
                   <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
                     <div>
@@ -1245,7 +1254,19 @@ export default function MainDashboard() {
 
                
 
+               </div>
+              :
+               <div className="rightCardForHomeBuyer">
+             <div>
+              <h2 className="viewText">
+                Click on a lead From the list to view details
+              </h2>
+             </div>
+
+               
+
               </div>
+              }
             </div>
           </div>
         </div>

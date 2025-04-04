@@ -42,34 +42,34 @@ const Signup = () => {
       </div>
       <div className="right-panel">
         <div className="signup-container">
-          <h2>Create an account</h2>
-          <p className="description">
+          <h2 className="loginTitle">Create an account</h2> <br />
+          <p className="loginDescription ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac
             lectus nec enim tempor suscipit.
-          </p>
+          </p> <br />
           <div className="user-type">
             <h3>Select user type</h3>
             <div className="tabs">
               <button
-                className={`tab-btn ${activeTab === 0 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 0 ? "active1" : ""}`}
                 onClick={() => switchTab(0)}
               >
                 Home owner
               </button>
               <button
-                className={`tab-btn ${activeTab === 1 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 1 ? "active2" : ""}`}
                 onClick={() => switchTab(1)}
               >
                 Realtor
               </button>
               <button
-                className={`tab-btn ${activeTab === 2 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 2 ? "active3" : ""}`}
                 onClick={() => switchTab(2)}
               >
                 Lenders
               </button>
               <button
-                className={`tab-btn ${activeTab === 3 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 3 ? "active4" : ""}`}
                 onClick={() => switchTab(3)}
               >
                 Admin
@@ -85,7 +85,7 @@ const Signup = () => {
                   <input
                     type="text"
                     id="name"
-                    className="form-control"
+                    className="form-control2"
                     placeholder="Enter Your Full Name"
                   />
                 </div>
@@ -94,7 +94,7 @@ const Signup = () => {
                   <input
                     type="tel"
                     id="phone"
-                    className="form-control"
+                    className="form-control2"
                     placeholder="Enter Phone Number"
                   />
                 </div>
@@ -105,14 +105,14 @@ const Signup = () => {
                   <input
                     type="email"
                     id="email"
-                    className="form-control"
+                    className="form-control2"
                     placeholder="Enter Email ID"
                   />
                 </div>
                 <div className="form-group">
                   <label htmlFor="country">Select country</label>
                   <div className="select-wrapper">
-                    <select id="country" className="form-control">
+                    <select id="country" className="form-control2">
                       <option value="" disabled="" selected="">
                         -Select Country-
                       </option>
@@ -130,7 +130,7 @@ const Signup = () => {
                     <input
                       type={passwordVisible ? "text" : "password"}
                       id="password"
-                      className="form-control"
+                      className="form-control2"
                       placeholder="Create a password"
                     />
                     <span
@@ -154,7 +154,7 @@ const Signup = () => {
                     <input
                       type={confirmPasswordVisible ? "text" : "password"}
                       id="confirm-password"
-                      className="form-control"
+                      className="form-control2"
                       placeholder="Confirm password"
                     />
                     <span
@@ -179,7 +179,7 @@ const Signup = () => {
                   <input
                     type="text"
                     id="business-name"
-                    className="form-control"
+                    className="form-control2"
                     placeholder="Enter Business Name"
                   />
                 </div>
@@ -188,12 +188,12 @@ const Signup = () => {
                   <input
                     type="text"
                     id="location"
-                    className="form-control"
+                    className="form-control2"
                     placeholder="Enter Business Name"
                   />
                 </div>
               </div>
-              <button type="submit" className="signup-btn">
+              <button type="submit" className="signup-btn mt-2">
                 Sign Up
               </button>
               <div className="login-link">

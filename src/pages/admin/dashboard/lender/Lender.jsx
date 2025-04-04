@@ -17,7 +17,7 @@ export default function Lender() {
               <div className="overview">
                 <p>
              User management 
-                  <span style={{ color: "#595959" }}>(Lenders)</span>
+                  <span style={{ color: "#595959" }}> (Lenders)</span>
                 </p>
               </div>
               <div className="allCard">

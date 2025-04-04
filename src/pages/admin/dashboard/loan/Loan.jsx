@@ -17,7 +17,7 @@ export default function Loan() {
               <div className="overview">
                 <p>
                  Lead management 
-                  <span style={{ color: "#595959" }}>(For Loan)</span>
+                  <span style={{ color: "#595959" }}> (For Loan)</span>
                 </p>
               </div>
               <div className="allCard">
@@ -26,7 +26,7 @@ export default function Loan() {
                     <p className="" style={{ color: "#595959" }}>
                    For Loan
                     </p>
-                    <span className="cardCount2">Leads</span>
+                    <span className="cardCount2">850</span>
                     <div>
                       <div className="gap32"> </div>
 

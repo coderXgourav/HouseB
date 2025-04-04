@@ -36,34 +36,34 @@ const Login = () => {
       </div>
       <div className="right-panel">
         <div className="signup-container">
-          <h2>Login to your account</h2>
-          <p className="description">
+          <h2 className="loginTitle">Login to your account</h2> <br />
+          <p className="loginDescription mt-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac
             lectus nec enim tempor suscipit.
           </p>
-          <div className="user-type">
+          <div className="user-type mt-4">
             <h3>Select user type</h3>
             <div className="tabs">
               <button
-                className={`tab-btn ${activeTab === 0 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 0 ? "active1" : ""}`}
                 onClick={() => switchTab(0)}
               >
                 Home owner
               </button>
               <button
-                className={`tab-btn ${activeTab === 1 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 1 ? "active2" : ""}`}
                 onClick={() => switchTab(1)}
               >
                 Realtor
               </button>
               <button
-                className={`tab-btn ${activeTab === 2 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 2 ? "active3" : ""}`}
                 onClick={() => switchTab(2)}
               >
                 Lenders
               </button>
               <button
-                className={`tab-btn ${activeTab === 3 ? "active" : ""}`}
+                className={`tab-btn ${activeTab === 3 ? "active4" : ""}`}
                 onClick={() => switchTab(3)}
               >
                 Admin
@@ -79,7 +79,7 @@ const Login = () => {
                   <input
                     type="email"
                     id="email"
-                    className="form-control"
+                    className="form-control2"
                     placeholder="Enter Email ID"
                   />
                 </div>
@@ -89,7 +89,7 @@ const Login = () => {
                     <input
                       type={passwordVisible ? "text" : "password"}
                       id="password"
-                      className="form-control"
+                      className="form-control2"
                       placeholder="Create a password"
                     />
                     <span
