@@ -3,7 +3,7 @@ import Dashboard from "../pages/lender/dashboard/Dashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LeadManagement from "../pages/lender/leadManagement/LeadManagement";
 import Setting from "../pages/lender/setting/Setting";
-// import ComingSoon from "../pages/ComingSoon/ComingSoon";
+import ComingSoon from "../pages/ComingSoon/ComingSoon";
 
 export default function LenderRoute() {
   return (
@@ -12,7 +12,7 @@ export default function LenderRoute() {
         <Route path="/lender/dashboard" element={<Dashboard />}></Route>
         <Route path="/lender/lead-management" element={<LeadManagement />}></Route>
         <Route path="/lender/setting" element={<Setting />}></Route>
-           {/* <Route path="*" element={<ComingSoon />} /> */}
+           <Route path="*" element={<ComingSoon />} />
       </Routes>
     </Router>
   );
