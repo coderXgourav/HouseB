@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./signup.css";
 import { Link } from "react-router-dom";
-import img from "../../assets/web/img.png";
+import img from "../../assets/web/img.webp";
 import logo from "../../assets/web/image4.png";
 
 
